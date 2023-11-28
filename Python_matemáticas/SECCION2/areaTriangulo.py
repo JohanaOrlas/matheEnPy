@@ -10,6 +10,7 @@ altura = float(input("Ingrese la altura del triángulo: "))
 #Proceso para calcular el área
 
 areaTriangulo = "{:.2f}".format( (base * altura) / 2 )
+
 #Salida de datos
 
 print("El área del triángulo es: "+str(areaTriangulo))

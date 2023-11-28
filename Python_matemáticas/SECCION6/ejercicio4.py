@@ -1,0 +1,14 @@
+"""Programa que muestra los números impares entre 1  y n 
+Autor: Valentina Orlas
+Fecha: noviembre 2023"""
+
+n = int(input("Ingrese un número: "))
+
+i = 1
+
+print(f"Los número impares entre 1 y {n} son: ")
+
+while i <= n:
+    if i % 2 != 0:
+        print(f"{i}")
+    i += 1

@@ -2,8 +2,10 @@
 Autor: Valentina Orlas
 Fecha: noviembre 2023"""
 
+#Variable
 n = int(input("Ingrese un número natural: "))
 
+#Proceso
 if( n < 0):
     print("El número ingresado no es natural")
 else:

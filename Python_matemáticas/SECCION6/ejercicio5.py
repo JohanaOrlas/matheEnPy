@@ -8,6 +8,7 @@ salir = True
 
 #Proceso
 while salir:
+    #Entrada de datos
     preg= input(" ¿ Desea salir del programa S/N ? : ")
     if( preg.lower()  == "s"):
         salir = False

@@ -2,9 +2,10 @@
 Autor: Valentina Orlas
 Fecha: noviembre 2023
 """
-
+#Variable
 num = int(input("Ingrese un número natural: "))
 
+#Proceso
 if(num < 0):
     print ("Error, el valor debe ser positivo")
 else:

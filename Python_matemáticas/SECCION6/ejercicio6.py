@@ -6,11 +6,14 @@ Fechas: noviembre 2023"""
 promedio = 0
 i = 1
 suma = 0
+
 #Proceso
 while(i <= 10):
     num = float(input("Ingrese el numero: "))
     suma += num
     i += 1
 promedio = suma / 10
+
+#Salida de datos
 print(f"El promedio es: {promedio}")
 

@@ -12,6 +12,7 @@ while i <= n :
     suma += (i**2)
     i += 1
 
+#Salida de datos
 print(f"La suma de los cuadrados entre 1 y {n} es: {suma}")
 
 

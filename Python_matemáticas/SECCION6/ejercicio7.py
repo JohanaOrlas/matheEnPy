@@ -17,6 +17,7 @@ while( i <= n):
     i += 1
 if(i > n):
     promedio = suma / n
+    #Salida de datos
     print(f"\nEl promedio de los números ingresados es: {promedio}")
 
 

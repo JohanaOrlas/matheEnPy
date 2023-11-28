@@ -8,7 +8,7 @@ Fecha: 21/10/2023
 ladoCubo = float(input("Ingrese un lado del cubo: "))
 
 # Proceso para calcular el volumen del cubo
-volumenCubo = "{:2}".format(ladoCubo**3)
+volumenCubo = "{:.2}".format(ladoCubo**3)
 
 # Salida de datos
 
